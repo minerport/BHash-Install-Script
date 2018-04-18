@@ -72,8 +72,8 @@
 	#Install Daemon
 	wget https://github.com/bhashcoin/bhash/releases/download/v2.0.4.2/bhash-2.0.4.2-linux.tar.gz
 	tar xvzf bhash-2.0.4.2-linux.tar.gz
-	sudo cp -v ~bhashd /usr/bin/
-	sudo cp -v ~bhash-cli /usr/bin/
+	sudo cp -v ~/bhashd /usr/bin/
+	sudo cp -v ~/bhash-cli /usr/bin/
 	chmod +x /usr/bin/bhashd
 	chmod +x /usr/bin/bhash-cli
 	
