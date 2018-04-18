@@ -87,7 +87,7 @@
 	
 
 	#Stop Daemon
-	bhash-cli stop
+	sudo pkill bhashd
 	
 
 	echo "sleep for 30 seconds..."
